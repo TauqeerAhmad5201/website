@@ -1,0 +1,30 @@
+# Ignore node_modules directory to avoid copying unnecessary files
+node_modules
+npm-debug.log
+
+# Ignore local development logs and environment variables
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore build output directory
+out
+
+# Ignore Dockerfile and docker-compose files
+Dockerfile
+docker-compose*
+
+# Ignore lock files
+*.lock
+
+# Ignore git files and folders
+.git
+.gitignore
+
+# Ignore miscellaneous system files
+.vscode
+.idea
+*.swp
